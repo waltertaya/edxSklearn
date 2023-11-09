@@ -34,3 +34,8 @@ plt.scatter(cdf.FUELCONSUMPTION_COMB,cdf.CO2EMISSIONS,color='red')
 plt.xlabel("Fuel Consumption Comb")
 plt.ylabel("Emissions")
 plt.show()
+
+# Creating training set and test dataset
+msk = np.random.rand(len(df)) < 0.8
+train = cdf[msk]
+test = cdf[~msk]
