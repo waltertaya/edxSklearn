@@ -13,3 +13,24 @@ with open(destination, "wb") as file:
 df = pd.read_csv(destination)
 
 print(df.head())
+df.describe()
+
+cdf = df[['CYLINDERS','ENGINESIZE','FUELCONSUMPTION_COMB','CO2EMISSIONS']]
+
+# scatter graph for the cylinders against emissions
+plt.scatter(cdf.CYLINDERS,cdf.CO2EMISSIONS,color='red')
+plt.xlabel("Cylinders")
+plt.ylabel("Emissions")
+plt.show()
+
+#scatter graph for the engine size against emissions
+plt.scatter(cdf.ENGINESIZE,cdf.CO2EMISSIONS,color='red')
+plt.xlabel("Engine Size")
+plt.ylabel("Emissions")
+plt.show()
+
+#scatter graph for the fuel consumption comb against emissions
+plt.scatter(cdf.FUELCONSUMPTION_COMB,cdf.CO2EMISSIONS,color='red')
+plt.xlabel("Fuel Consumption Comb")
+plt.ylabel("Emissions")
+plt.show()
