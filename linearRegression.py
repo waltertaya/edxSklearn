@@ -19,4 +19,4 @@ path = "FuelConsumption.csv"
 
 df = pd.read_csv(FuelConsumption.csv)
 
-df.head()
+print(df.head())
