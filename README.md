@@ -1,4 +1,4 @@
-# Linear Regression Notebook
+# Fuel Consumption and CO2 Emissions Analysis
 
 ## Overview
 
@@ -7,7 +7,7 @@ This Jupyter notebook demonstrates the implementation of linear regression for p
 ## Contents
 
 1. **Introduction**
-   - Brief explanation of linear regression and its applications.
+   -This Python script performs a linear regression analysis on a dataset related to fuel consumption and CO2 emissions. The analysis includes data visualization, model training, and evaluation.
 
 2. **Dataset**
    - Description of the dataset used in the notebook.
