@@ -11,7 +11,7 @@ This Jupyter notebook demonstrates the implementation of linear regression for p
 
 2. **Dataset**
    - Description of the dataset used in the notebook.
-   - Source of the dataset `https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%202/data/FuelConsumptionCo2.csv`.
+   - Source of the dataset (https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%202/data/FuelConsumptionCo2.csv).
 
 3. **Notebook Files**
    - `linearRegression.ipynb`: The main Jupyter notebook containing the code for linear regression.
